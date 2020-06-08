@@ -1499,3 +1499,32 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 47ms (Views: 28.1ms | ActiveRecord: 0.0ms | Allocations: 1758)
 
 
+Started GET "/" for ::1 at 2020-06-08 12:46:34 -0700
+  [1m[35m (11.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/zobinazimi/.rvm/gems/ruby-2.6.3/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/zobinazimi/.rvm/gems/ruby-2.6.3/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 16.4ms | Allocations: 316)
+Completed 200 OK in 52ms (Views: 31.9ms | ActiveRecord: 0.0ms | Allocations: 1757)
+
+
+Started GET "/" for ::1 at 2020-06-08 12:46:47 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/zobinazimi/.rvm/gems/ruby-2.6.3/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/zobinazimi/.rvm/gems/ruby-2.6.3/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.7ms | Allocations: 191)
+Completed 200 OK in 16ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 844)
+
+
+Started GET "/" for ::1 at 2020-06-08 14:43:38 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/zobinazimi/.rvm/gems/ruby-2.6.3/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/zobinazimi/.rvm/gems/ruby-2.6.3/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | Allocations: 8)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 348)
+
+
+Started GET "/" for ::1 at 2020-06-08 14:43:39 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/zobinazimi/.rvm/gems/ruby-2.6.3/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/zobinazimi/.rvm/gems/ruby-2.6.3/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 7)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 344)
+
+
